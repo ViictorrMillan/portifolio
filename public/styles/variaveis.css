@@ -62,12 +62,7 @@ html, body {
   color: #f4c542; 
 }
 
-@media (max-width: 768px) {  
-      body {
-    background-attachment: fixed;
-  }
-
-  
+@media (max-width: 768px) {
   .nav-dot i {
     font-size: 22px;
   }
