@@ -131,7 +131,6 @@
     transition: transform 0.3s ease;
     background-color: #292929;
     padding: 5rem 0rem; 
-    border: 1px solid #f82727;
   }
 
   aside.active {
