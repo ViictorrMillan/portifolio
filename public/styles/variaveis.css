@@ -18,7 +18,7 @@
 
 /* Layot */
 
-body {
+html, body {
   background: var(--cor-fundo);
   background: var(--cor-fundo);
   background-attachment: fixed;           
