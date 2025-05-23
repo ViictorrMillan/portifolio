@@ -125,14 +125,13 @@
   aside {
     align-items: start;
     width: 150px;
-    height: 100svh;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     transform: translateX(-100%);
     transition: transform 0.3s ease;
     background-color: #292929;
     padding: 5rem 0rem; 
-    border: 1px solid #fce9e9;
+    border: 1px solid #f82727;
   }
 
   aside.active {
