@@ -19,11 +19,9 @@
 /* Layot */
 
 html, body {
-  background: var(--cor-fundo);
-  background-attachment: fixed;           
-  margin: 0;
-  color: #fff; 
-  font-family: var(--fonte-principal);
+    body {
+    background-attachment: fixed;
+  }
 }
 
 /*! NAV */
@@ -62,16 +60,7 @@ html, body {
   color: #f4c542; 
 }
 
-@media (max-width: 768px) {
-  html, body {
-  margin: 0;
-  min-height: 100vh;
-  overflow-x: hidden;
-}
-  
-  
-  
-  
+@media (max-width: 768px) {  
   .nav-dot i {
     font-size: 22px;
   }
