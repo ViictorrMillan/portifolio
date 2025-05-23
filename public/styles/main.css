@@ -1,0 +1,38 @@
+html {
+   scroll-behavior: smooth;
+}
+
+aside{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+   height: 100vh;
+   margin-bottom: 20px;
+   border: 1px solid #000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}

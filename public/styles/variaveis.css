@@ -1,0 +1,218 @@
+:root {
+    --cor-fundo: linear-gradient(
+    45deg, 
+    #131313 0%, 
+    #323232 50%,
+    #131313 100%
+    );
+
+    --cor-texto: #f3f3f3;
+    --cor-primaria: #333;
+    --cor-secundaria: #C0C0C0;
+    --cor-terciaria : #323232;
+    --cor-hover: #555;
+
+
+    --fonte-principal: "Lato", sans-serif; 
+}
+
+/* Layot */
+
+body {
+  background: var(--cor-fundo);
+  background: var(--cor-fundo);
+  background-attachment: fixed;           
+  margin: 0;
+  color: #fff; 
+  font-family: var(--fonte-principal);
+}
+
+/*! NAV */
+.nav-dot {
+    background: #444;
+}
+
+
+.nav-dot i {
+    background: #444;
+}
+
+.tooltip {
+    color: var(--cor-texto);
+    background: #444;
+    font-size: 20px;
+}
+/* Ícones com cores fixas */
+.nav-dot.home i {
+  color: #4A90E2; 
+}
+
+.nav-dot.projetos i {
+  color: #08e4d9; 
+}
+
+.nav-dot.carreira i {
+  color: #9b6c20; 
+}
+
+.nav-dot.habilidades i {
+  color: #da74d4; 
+}
+
+.nav-dot.contato i {
+  color: #f4c542; 
+}
+
+@media (max-width: 768px) {
+  .nav-dot i {
+    font-size: 22px;
+  }
+
+   .tooltip {
+    font-size: 18px;
+  }
+
+}
+
+ 
+
+
+
+
+
+/*! Footer */
+footer {
+  background-color: #333;
+  color: #fff; 
+  font-size: 18px;
+  font-family: var(--fonte-principal);
+}
+
+.footer-icons {
+  font-size: 30px;
+}
+/*? Estilo dos links dos ícones */
+.social-icons a i {
+  color: #928989; /* Cor padrão cinza */
+  transition: color 0.3s, transform 0.3s;
+}
+/* Estilo dos links dos ícones ao passar o mouse */
+.social-icons  a[aria-label="E-mail"]:hover i {
+  color: #f4c542; 
+  transform:translateY(-5px); 
+}
+
+.social-icons  a[aria-label="GitHub"]:hover i {
+  color: #cfcfcf; 
+  transform: translateY(-5px);
+}
+
+.social-icons a[aria-label="LinkedIn"]:hover i {
+  color: #0a66c2; 
+  transform: translateY(-5px);
+}
+
+.social-icons a[aria-label="Instagram"]:hover i {
+  color: #e1306c; 
+  transform: translateY(-5px);
+}
+
+.social-icons a[aria-label="Whatsapp"]:hover i {
+  color: #25D366; 
+  transform: translateY(-5px);
+}
+
+/*? Footer Mobile */
+@media (max-width: 768px) {
+
+footer {
+  background-color: #333;
+  color: var(--cor-texto); 
+  font-size: 14px;
+}
+
+.footer-icons {
+  font-size: 22px;
+}
+
+}
+
+
+/*? footer-Hamburguer */
+
+#footer-hamburguer {
+   font-family: var(--fonte-principal);
+   font-size: 14px;
+}
+
+.aside-t {
+  font-family: var(--fonte-principal);
+  font-size: 18px;
+  text-align: center;
+  color: var(--cor-texto);
+}
+
+.footer-icons-hamburguer a  {
+    background-color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.footer-icons-hamburguer a i   {
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer-icons-hamburguer a span {
+    font-size: 16px;
+    color:  var(--cor-texto);
+    font-family: var(--fonte-principal);
+}
+
+
+.social-icons-hamburguer  a[aria-label="E-mail"] i {
+  color: #f4c542; 
+
+}
+
+.social-icons-hamburguer  a[aria-label="GitHub"]  i {
+  color: #cfcfcf; 
+
+}
+
+.social-icons-hamburguer a[aria-label="LinkedIn"] i {
+  color: #0a66c2; 
+  
+}
+
+.social-icons-hamburguer a[aria-label="Instagram"] i {
+  color: #e1306c; 
+    
+}
+
+.social-icons-hamburguer a[aria-label="Whatsapp"] i {
+    color: #25D366; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

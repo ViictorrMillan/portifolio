@@ -1,0 +1,168 @@
+.nav-dot {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  overflow: hidden;
+  box-sizing: content-box;
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1), border-radius 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.nav-dot i {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  pointer-events: none;
+  position: relative;
+  z-index: 2;
+}
+
+.tooltip {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 0 25px 25px 0;
+  opacity: 0;
+  white-space: nowrap;
+  width: 0;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+  transition: 
+    opacity 0.4s ease 0.1s,
+    width 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    padding-left 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    padding-right 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  pointer-events: none;
+  user-select: none;
+}
+
+.nav-dot:hover {
+  width: 150px;
+  border-radius: 25px;
+}
+
+.nav-dot:hover .tooltip {
+  opacity: 1;
+  width: 100px;
+  pointer-events: auto;
+  text-align: center;
+}
+
+/* Ícones com textos menores */
+.nav-dot.home:hover .tooltip, .nav-dot.habilidades:hover .tooltip  {
+  padding-left: 15px;
+}
+
+
+/*  Para Mobile */
+#menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1100; 
+  cursor: pointer;  
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 900;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.aside-t {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 
+    opacity 0.3s ease,
+    transform 0.3s ease;
+    padding: 15px;
+}
+
+ .aside-t.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+@media (max-width: 768px) {
+    #menu-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+  }
+
+  aside {
+    align-items: start;
+    width: 150px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    background-color: #292929;
+    padding: 5rem 0rem; 
+
+  }
+
+  aside.active {
+    transform: translateX(0);
+  }
+
+  .nav-dot {
+    width: 100%;
+    border-radius:  0px;
+    height: 35px;
+    
+  }
+
+  .nav-dot .tooltip {
+    opacity: 1;
+    width: 100px;
+    pointer-events: auto;
+   
+
+  }
+
+  .nav-dot:hover {
+  width: 100%;
+  border-radius: 0px;
+}
+
+
+
+
+  .nav-dot.home .tooltip, .nav-dot.habilidades .tooltip  {
+  padding-left: 15px;
+}
+
+
+
+}

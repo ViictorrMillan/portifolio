@@ -1,0 +1,78 @@
+/*! Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 900;
+  height: 85px;
+}
+
+/* Container com texto e ícones */
+.container-footer {
+  
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        position: relative;
+        }
+
+    aside.active #footer-hamburguer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+}
+
+/*? Footer Hamburguer */
+#footer-hamburguer {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container-footer-hamburguer {
+    width: 100%;
+    height: 12.5rem;
+   
+}
+
+.footer-icons-hamburguer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;    
+}
+
+.footer-icons-hamburguer a  {
+    height: 100%;
+    padding: 4px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons-hamburguer a i   {
+    margin: 0 10px;
+}
+
+
