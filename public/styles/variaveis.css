@@ -20,14 +20,10 @@
 
 html, body {
   background: var(--cor-fundo);
-  background: var(--cor-fundo);
   background-attachment: fixed;           
   margin: 0;
   color: #fff; 
   font-family: var(--fonte-principal);
-  height: 100%;
-  overflow-x: hidden;
-
 }
 
 /*! NAV */

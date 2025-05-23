@@ -36,3 +36,14 @@ section {
    align-items: center;
 
 }
+
+@media (max-width: 768px){
+  html, body {
+   margin: 0;
+  color: #fff; 
+  font-family: var(--fonte-principal);
+  background: var(--cor-fundo);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+}
