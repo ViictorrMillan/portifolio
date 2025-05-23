@@ -19,9 +19,11 @@
 /* Layot */
 
 html, body {
-    body {
-    background-attachment: fixed;
-  }
+  background: var(--cor-fundo);
+  background-attachment: fixed;           
+  margin: 0;
+  color: #fff; 
+  font-family: var(--fonte-principal);
 }
 
 /*! NAV */
@@ -61,6 +63,11 @@ html, body {
 }
 
 @media (max-width: 768px) {  
+      body {
+    background-attachment: fixed;
+  }
+
+  
   .nav-dot i {
     font-size: 22px;
   }
