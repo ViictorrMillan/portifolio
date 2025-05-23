@@ -27,8 +27,8 @@ body {
   font-family: var(--fonte-principal);
   color: #fff;
   background: var(--cor-fundo);
-  min-height: 100vh;
   overflow-x: hidden;
+  background-attachment: fixed;      
 }
 
 /*! NAV */
