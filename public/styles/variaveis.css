@@ -18,12 +18,17 @@
 
 /* Layot */
 
-html, body {
+html {
   background: var(--cor-fundo);
-  background-attachment: fixed;           
+}
+
+body {
   margin: 0;
-  color: #fff; 
   font-family: var(--fonte-principal);
+  color: #fff;
+  background: var(--cor-fundo);
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /*! NAV */
