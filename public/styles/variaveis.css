@@ -25,6 +25,9 @@ html, body {
   margin: 0;
   color: #fff; 
   font-family: var(--fonte-principal);
+  height: 100%;
+  overflow-x: hidden;
+
 }
 
 /*! NAV */
