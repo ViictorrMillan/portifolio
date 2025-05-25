@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/nav-aside.css">
+    <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/variaveis.css">
     <!--* Externos -->
@@ -77,7 +78,35 @@
     </aside>
 
     <main>
-        <section id="Home">Home </section>
+        <section id="Home">
+             <div class="header-apresentacao">
+                <h1>Victor Millan</h1>
+                 <p id="texto-dinamico"></p>
+                  <div class="social-icons footer-icons">
+                    <a href="mailto:DEVictorMillan@outlook.com" aria-label="E-mail">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/ViictorrMillan" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/victormillanddev/" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/victormillan_dev" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.instagram.com/victormillan_dev" aria-label="Whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                  </div>
+              </div>
+
+                <div class="header-imagem">
+                    <img src="images/apresentacao.jfif" alt="Victor Millan" class="imagem-perfil">
+                    <figcaption> Transformando ideias em soluções, uma linha de código de cada vez.</figcaption>
+                </div>  
+        </section>
+
         <section id="Projetos"> Projetos</section>
         <section id="Carreira"> Carreira</section>
         <section id="Habilidades"> Habilidades</section>
@@ -106,8 +135,9 @@
                 </div>
             </div>
         </div>
+    <footer id="overlay"></div>
 
-     <footer id="overlay"></div>
      <script src="scripts/Aside.js"></script>
+     <script src="scripts/home.js"></script>
 </body>
 </html>
