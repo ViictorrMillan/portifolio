@@ -84,7 +84,6 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        gap: clamp(1.5rem, 5vw, 3rem);
     }
 
 }
