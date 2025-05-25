@@ -60,7 +60,7 @@
 }
 
 /* Ícones com textos menores */
-.nav-dot.home:hover .tooltip, .nav-dot.habilidades:hover .tooltip  {
+.nav-dot.home .tooltip, .nav-dot.habilidades .tooltip  {
   padding-left: 15px;
 }
 
@@ -128,14 +128,14 @@
     margin-left: 3px;
     align-items: start;
     width: 150px;
-    height: 350px;
+    height: 315px;
     position: fixed;
     transform: translateX(-104%);
     transition: transform 0.3s ease;
-    padding: 5rem 4px; 
+    padding: 3rem 4px; 
     border-radius: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    
+    background: #232323;
   }
 
   aside.active {
@@ -156,10 +156,15 @@
 
   }
 
-  .nav-dot:hover {
-  width: 100%;
-  border-radius: 0px;
-}
+ .nav-dot:hover {
+    width: 100%;
+    border-radius: 25px; 
+  }
+
+  .nav-dot:hover .tooltip {
+    opacity: 1;
+    width: 100px;
+  }
 
   .nav-dot.home .tooltip, .nav-dot.habilidades .tooltip  {
   padding-left:  12px;
