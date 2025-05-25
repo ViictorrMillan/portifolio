@@ -76,11 +76,12 @@
 
 @media (max-width: 1023px)  {
     section{
-        margin: 20px 0;
+        margin: 10px 0; 
+        border: 1px solid red;
     }
 
     #Home {
-        margin: 10px 10px;
+        margin: auto auto auto 10px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
