@@ -77,7 +77,7 @@
 @media (max-width: 1023px)  {
     section{
         margin: 10px 0; 
-        height: auto;
+        height: 80vh;
     }
 
     #Home {
