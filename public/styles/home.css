@@ -82,8 +82,9 @@
     #Home {
         margin: 10px 10px;
         flex-direction: column;
-        justify-content: space-around;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
+        gap: clamp(1.5rem, 5vw, 3rem);
     }
 
 }
