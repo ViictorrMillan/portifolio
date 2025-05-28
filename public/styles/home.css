@@ -88,6 +88,10 @@
         gap: clamp(1.5rem, 6vw, 3rem);
     }
 
+    .home-imagem figcaption {
+        margin: 0 45px;
+}
+
 }
 
 
