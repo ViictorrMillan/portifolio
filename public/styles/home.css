@@ -76,8 +76,8 @@
 
 @media (max-width: 1023px)  {
     section{
-        margin: 15px 0; 
-        height: 100vh;
+        margin: 15px 0px; 
+        height: 80svh;
         border: 1px solid red;
     }
 
