@@ -30,7 +30,7 @@
     margin: 0;
     padding: 1rem;
     word-break: normal;
-    line-height: 1.6;
+    line-height: 1.6;   
 }
 
 
@@ -121,7 +121,35 @@
         height: auto;
         gap: 2rem;
     }
-  
+    
+     .contato-card[href^="mailto"] {
+    background-color: #ecbd01d7 !important;
+    border-color: #c7a100 !important;
+  }
+
+  .contato-card[href*="github.com"] {
+    background-color: #333 !important;
+    border-color: #222 !important;
+  }
+
+  .contato-card[href*="linkedin.com"] {
+    background-color: #0077b5 !important;
+    border-color: #005f94 !important;
+  }
+
+  .contato-card[href*="instagram.com"] {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%) !important;
+    border-color: #d6249f !important;
+  }
+
+  .contato-card[href*="wa.me"] {
+    background-color: #21ad54 !important;
+    border-color: #1ebe5d !important;
+  }
+
+  .sub-label {
+  color: var(--cor-texto);
+}
 }
 
 
@@ -133,9 +161,8 @@
   }
   .contato-apresentacao p {
     padding: 2rem 3rem;
-    font-size: 0.95rem;
-    border: 1px solid #444;
+    font-size: 1rem;
     text-align: start;
-    width: 350px;
+    width: 250px;
     }   
 }
