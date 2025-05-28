@@ -29,10 +29,11 @@ main{
 
 section {
    height: 100vh;
-   margin-bottom: 20px;
    display: flex;
    justify-content: center;
    align-items: center;
+   margin: 20px 180px;
+   border: 1px solid #000;
 }
 
 
@@ -78,7 +79,7 @@ section {
 
     section{
         margin: 15px 0px; 
-        height: 100svh;
+        min-height: 100svh;
     }
 
 }
