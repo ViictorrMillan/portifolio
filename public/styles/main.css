@@ -68,5 +68,18 @@ section {
     #aviso-orientacao {
       display: flex;
     }
+
+
   }
+
+
+
+  @media (max-width: 1023px)  {
+
+    section{
+        margin: 15px 0px; 
+        height: 100svh;
+    }
+
+}
 
