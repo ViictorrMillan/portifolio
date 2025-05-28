@@ -9,18 +9,33 @@
 }
 
 .contato-apresentacao {
-    border: 1px solid #000;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;  
+  
+}
+
+.contato-apresentacao h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contato-apresentacao p {
+    font-size: 1rem;
+    color: #aaa;
+    text-align: center;
+    margin: 0;
     padding: 1rem;
+    word-break: normal;
+    line-height: 1.6;
 }
 
 
+
 .contato-cards {
-  border: 1px solid #db0707;
   width: 100%;
   display: flex;
   justify-content: space-around; 
@@ -28,23 +43,74 @@
   gap: 4rem; 
 }
 
- .contato-card {
-  position: relative;
+
+.contato-card {
+  width: 180px;
+  height: 220px;
+  background: transparent;
+  border: 1px solid #444;
+  border-radius: 15px;
+  text-decoration: none;
+  color: var(--cor-texto);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 180px;
-  height: 220px;
-  text-decoration: none;
-  background: transparent;
-  border: 2px solid black;
-  border-radius: 15px;
-  color: black;
-  overflow: hidden;
-  font-family: sans-serif;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+.icon-container {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0.3rem 0;
+}
+
+.sub-label {
+  font-size: 0.9rem;
+  color: #aaa;
+  text-align: center;
+}
+
+.contato-card:hover {
+  transform: scale(1.05);
+  color: #e0e0e0; /* mais escuro que o branco */
+}
+
+.contato-card:hover .sub-label {
+  color: white; /* universalmente legível */
+}
+
+/* Efeitos de hover por plataforma */
+.contato-card[href^="mailto"]:hover {
+  background-color: #ecbd01d7; /* amarelo mais sóbrio */
+  border-color: #c7a100;
+}
+
+.contato-card[href*="github.com"]:hover {
+  background-color: #333;
+  border-color: #222;
+}
+
+.contato-card[href*="linkedin.com"]:hover {
+  background-color: #0077b5;
+  border-color: #005f94;
+}
+
+.contato-card[href*="instagram.com"]:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  border-color: #d6249f;
+}
+
+.contato-card[href*="wa.me"]:hover {
+  background-color: #21ad54;
+  border-color: #1ebe5d;
+}
 
 
 
@@ -53,6 +119,23 @@
     #Contato {
         margin: 15px 0px; 
         height: auto;
+        gap: 2rem;
     }
+  
+}
 
+
+  @media (max-width: 768px) {
+  .contato-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .contato-apresentacao p {
+    padding: 2rem 3rem;
+    font-size: 0.95rem;
+    border: 1px solid #444;
+    text-align: start;
+    width: 350px;
+    }   
 }
