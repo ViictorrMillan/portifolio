@@ -76,8 +76,8 @@
 
 @media (max-width: 1023px)  {
     section{
-        margin: 10px 0; 
-        height: 50vh;
+        margin: 15px 0; 
+        height: 100vh;
         border: 1px solid red;
     }
 
@@ -90,7 +90,7 @@
     }
 
     .home-imagem figcaption {
-        margin: 0 45px;
+        margin: 0 30px;
 }
 
 }
