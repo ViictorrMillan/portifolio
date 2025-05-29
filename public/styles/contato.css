@@ -150,14 +150,22 @@
   .sub-label {
   color: var(--cor-texto);
 }
+
+.contato-card {
+  width: 120px;
+  height: 160px;
+}
+
+
+
+
+
 }
 
 
   @media (max-width: 768px) {
   .contato-cards {
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
+    gap: 1rem;
   }
   .contato-apresentacao p {
     padding: 2rem 3rem;
@@ -165,4 +173,6 @@
     text-align: start;
     width: 400px;
     }   
+
+
 }
