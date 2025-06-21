@@ -61,6 +61,25 @@
 }
 
 
+.btn-curriculo {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #464646; 
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-curriculo:hover {
+  background-color: #a31411; 
+  transform: translateY(-2px) scale(1.1);
+}
+
 @media (max-width: 1280px) {
     .home-imagem figcaption {
         white-space: normal;  
