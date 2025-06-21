@@ -171,12 +171,20 @@
 
   @media (max-width: 768px) {
   .contato-cards {
-    gap: 1rem 0.8rem; /* Ajusta o espaçamento entre os cards */
+    gap: 0.8rem; 
   }
   .contato-apresentacao p {
     padding: 1rem 3rem;
     font-size: 1rem;
-    text-align: start;
+    text-align: center;
     width: 400px;
     }   
+}
+
+
+@media (orientation: landscape) and (max-width: 1000px) {
+   .contato-cards {
+    gap: 1rem 0.1rem; 
+
+  }
 }
