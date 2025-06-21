@@ -93,7 +93,7 @@ footer {
 }
 
 .footer-icons {
-  font-size: 30px;
+  font-size: 35px;
 }
 /*? Estilo dos links dos ícones */
 .social-icons a i {
@@ -136,7 +136,8 @@ footer {
 }
 
 .footer-icons {
-  font-size: 22px;
+  font-size: 30px;
+  gap: 30px;
 }
 
 }
@@ -146,7 +147,7 @@ footer {
 
 #footer-hamburguer {
    font-family: var(--fonte-principal);
-   font-size: 14px;
+   font-size: 2px;
 }
 
 .aside-t {
