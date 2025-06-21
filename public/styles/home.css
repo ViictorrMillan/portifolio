@@ -112,7 +112,7 @@
         flex-direction: column;
         justify-content: start;
         align-items: start;
-        height: auto;
+        height: 100svh;
         gap : 60px;
         min-height: auto;
     }
