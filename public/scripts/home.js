@@ -6,24 +6,24 @@ const frases = [
     'Aluno do Projeto ONE'
 ];
 
-let index = 0; // Índice da frase atual
-let charIndex = 0; // Índice do caractere atual
-let isDeleting = false; // Flag para verificar se está apagando
-const typingSpeed = 100; // Velocidade de digitação
-const deletingSpeed = 50; // Velocidade de apagar
-const pauseTime = 1500; // Pausa após a frase completa
+let index = 0; 
+let charIndex = 0;
+let isDeleting = false; 
+const typingSpeed = 100; 
+const deletingSpeed = 50; 
+const pauseTime = 1500; 
 
 function typeEffect() {
-    const currentPhrase = frases[index]; // Define a frase atual
+    const currentPhrase = frases[index]; 
 
     if (!isDeleting) {
-        // Digitar o texto
+       
         if (charIndex <= currentPhrase.length) {
             textoDinamico.textContent = currentPhrase.substring(0, charIndex);
             charIndex++;
             setTimeout(typeEffect, typingSpeed);
         } else {
-            // Pausa após terminar de digitar a frase
+            
             isDeleting = true;
             setTimeout(typeEffect, pauseTime);
         }
