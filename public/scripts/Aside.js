@@ -20,7 +20,7 @@ menuToggle.addEventListener('click', toggleMenu);
 
 overlay.addEventListener('click', () => {
   aside.classList.remove('active');
-  asideT.classList.remove('active'); // Removendo junto
+  asideT.classList.remove('active'); 
   overlay.style.display = 'none';
 });
 
@@ -28,7 +28,7 @@ const navLinks = aside.querySelectorAll('a');
 navLinks.forEach(link => {
   link.addEventListener('click', () => {
     aside.classList.remove('active');
-    asideT.classList.remove('active'); // Removendo junto
+    asideT.classList.remove('active'); 
     overlay.style.display = 'none';
   });
 });
