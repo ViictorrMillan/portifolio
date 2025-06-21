@@ -171,7 +171,7 @@
 
   @media (max-width: 768px) {
   .contato-cards {
-    gap: 1rem;
+    gap: 1rem 0.8rem; /* Ajusta o espaçamento entre os cards */
   }
   .contato-apresentacao p {
     padding: 1rem 3rem;
