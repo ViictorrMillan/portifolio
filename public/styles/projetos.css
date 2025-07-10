@@ -325,7 +325,7 @@
 /*  Imagens dos projetos */
 
 .spotify-clone {
-    
+    background-image: url('../images/spotify-clone.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -339,14 +339,14 @@
 }
 
 .pomodoro {
-  
+    background-image: url('../images/pomodoro.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .volleypong {
-    
+    background-image: url('../images/volleypong.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
