@@ -98,10 +98,78 @@
                 </div>  
         </section>
 
-        <section id="Projetos"> Projetos
+        <section id="Projetos"> 
+          <div class="carousel-container">
 
+            <ul class="list">
+            <li class="hide pomodoro" 
+                data-title="Ferramenta Pomodoro – Projeto Prático" 
+                data-desc="Aplicação simples de Pomodoro para melhorar produtividade, com ciclos de trabalho e pausas, controles de play/pause/reinício e notificações sonoras. Desenvolvido durante o curso ONE da Oracle e Alura." 
+                data-tech="fa-html5 fa-css3-alt fa-js" 
+                data-link1="https://github.com/ViictorrMillan/Fokus-Pomodoro" 
+                data-link2="https://fokus-pomodoro-eight.vercel.app/">
+            </li>
 
+            <li class="prev decodificador" 
+                data-title="Decodificador de Mensagens (ONE Challenger)" 
+                data-desc="Projeto desenvolvido no curso ONE para criar uma aplicação de criptografia simples por substituição de letras. Permite criptografar e descriptografar textos com regras definidas (ex: "e" → "enter"). Interface planejada no Figma e organização do trabalho no Trello. Feito com HTML, CSS e JavaScript." 
+                data-tech="fa-html5 fa-css3-alt fa-js" 
+                data-link1="https://github.com/ViictorrMillan/decodificador-one" 
+                data-link2="https://decodificador-one-pi.vercel.app">
+            </li>
 
+            <li class="act spotify-clone" 
+                data-title="Clone do Spotify (React.js)" 
+                data-desc="Projeto de clone do Spotify usando React.js e json-server para simular uma API de artistas. Permite buscar artistas, mostrar nome, gênero e imagem, com dados gerenciados via JSON local. Desenvolvido para aprender consumo de APIs e React." 
+                data-tech="fa-html5 fa-css3-alt fa-js fa-react" 
+                data-link1="https://github.com/ViictorrMillan/Spotify-React" 
+                data-link2="https://spotify-fawn-seven.vercel.app">
+            </li>
+            <li class="next volleypong" 
+                data-title="VolleyPong: Jogo de Vôlei estilo Pong" 
+                data-desc="Inspirado no anime Haikyuu!! Este jogo foi desenvolvido com HTML, CSS e JavaScript no programa ONE da Alura. Possui modos para 1 ou 2 jogadores, som ambiente, efeitos sonoros, seleção de jogadores e botão de reinício. Toda a lógica do jogo e controles foram implementados do zero." 
+                data-tech="fa-html5 fa-css3-alt fa-js" 
+                data-link1="https://github.com/ViictorrMillan/VolleyPong" 
+                data-link2="https://volley-pong.vercel.app">
+            </li>
+            <li class="next new-next museu" 
+                data-title="Museu Nacional UFRJ - Clone" 
+                data-desc="Uma réplica da página inicial do site do Museu Nacional, desenvolvida apenas com HTML e CSS como exercício prático de estruturação e estilização de layouts." 
+                data-tech="fa-html5 fa-css3-alt" 
+                data-link1="https://github.com/ViictorrMillan/Projeto-Museu-nacional-UFRJ" 
+                data-link2="https://projeto-museu-nacional-ufrj.vercel.app">
+            </li>
+            </ul>
+
+            <div class="buttons">
+            <button id="btn-prev"><i class="fa fa-chevron-left"></i> Anterior</button>
+            <button id="btn-next">Próximo <i class="fa fa-chevron-right"></i></button>
+            </div>
+
+            <div class="slide-info">
+            <h2 id="slide-title">Título do projeto</h2>
+
+            <div class="slide-content">
+                <div class="desc" id="slide-desc">
+                Descrição do projeto vai aqui.
+                </div>
+
+                <div class="tech-and-buttons">
+                <h3>Tecnologias Utilizadas</h3>
+                <div class="tech-icons" id="tech-icons"></div>
+
+                <div class="links">
+                    <a id="link1" href="#" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a id="link2" href="#" target="_blank">
+                    <i class="fas fa-rocket"></i> Ver projeto
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
         </section>
         <section id="Carreira"> Carreira</section>
         <section id="Habilidades"> Habilidades</section>
@@ -186,5 +254,6 @@
 
      <script src="scripts/Aside.js"></script>
      <script src="scripts/home.js"></script>
+     <script src="scripts/Projetos.js"></script>
 </body>
 </html>
