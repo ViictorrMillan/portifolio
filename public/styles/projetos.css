@@ -1,8 +1,8 @@
+#Projetos {
+    height: 100svh;
+}
 .carousel-container {
-      width: 1600px;
-      max-width: 90vw;
       text-align: center;
-  
     }
 
     .list {
@@ -34,7 +34,6 @@
     .list .act {
       opacity: 1;
       font-weight: bold;
-    
       cursor: default;
       transform: scale(1.15);
       z-index: 10;
@@ -315,10 +314,20 @@
       }
 
       .links a {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         min-width: 100px;
-        padding: 8px;
+        padding: 4px;
       }
+
+      .desc {
+        max-height: 180px;
+        overflow-y: auto;
+        padding-right: 8px;
+    }
+
+    .carousel-container {
+      margin-top: 100px;
+    }
     }
 
 
