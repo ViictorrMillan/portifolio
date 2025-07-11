@@ -191,3 +191,53 @@
     margin: 2px;
   }
 }
+
+
+/*  Estilo */
+
+/*! NAV */
+.nav-dot {
+    background: #444;
+}
+
+
+.nav-dot i {
+    background: #444;
+}
+
+.tooltip {
+    color: var(--cor-texto);
+    background: #444;
+    font-size: 20px;
+}
+
+.nav-dot.home i {
+  color: #4A90E2; 
+}
+
+.nav-dot.projetos i {
+  color: #08e4d9; 
+}
+
+.nav-dot.carreira i {
+  color: #9b6c20; 
+}
+
+.nav-dot.habilidades i {
+  color: #da74d4; 
+}
+
+.nav-dot.contato i {
+  color: #f4c542; 
+}
+
+@media (max-width: 768px) {
+  .nav-dot i {
+    font-size: 22px;
+  }
+
+   .tooltip {
+    font-size: 18px;
+  }
+
+}
