@@ -336,7 +336,6 @@
       .links a {
         font-size: 0.8rem;
         min-width: 100px;
-        padding: 4px;
       }
 
       .desc {
@@ -346,8 +345,6 @@
 
     .tech-and-buttons {
         height: auto;
-        overflow-y: auto;
-        padding-right: 10px; 
     }
     }
 
