@@ -1,5 +1,6 @@
 #Projetos {
     min-height: 100svh;
+    
 }
 .carousel-container {
       text-align: center;
@@ -141,7 +142,7 @@
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
       padding: 20px;
       border-radius: 15px;
-      height: 200px;
+      height: 220px;
     }
 
 
@@ -155,7 +156,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
       padding: 20px;
       border-radius: 15px;
-      height: 200px;
+      height: 220px;
 
     }
 
@@ -302,8 +303,7 @@
             height: auto;
             padding: 20px;
         }
-
-
+        
       .list li {
         width: 280px;
         height: 150px;
@@ -326,7 +326,7 @@
       }
 
       .slide-info h2 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
       }
 
       .tech-icons i {
@@ -342,26 +342,20 @@
 
       .desc {
         overflow-y: auto;
-        padding-right: 10px;
         height: 180px;
+        font-size: 0.9em;
     }
 
     .tech-and-buttons {
         height: auto;
         overflow-y: auto;
-        padding-right: 8px; 
+        padding-right: 10px; 
+    }
     }
 
-    }
 
 
-    @media (max-width: 720px) and (orientation: landscape) {
-  #Projetos {
-    height: auto;
-    min-height: 100vh;
-    padding: 20px 10px;
-  }
-}
+
 /*  Imagens dos projetos */
 
 .spotify-clone {
