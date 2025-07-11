@@ -61,7 +61,7 @@
 
 /* Ícones com textos menores */
 .nav-dot.home .tooltip, .nav-dot.habilidades .tooltip  {
-  padding-left: 15px;
+  padding-left: 4px;
 }
 
 
@@ -71,7 +71,7 @@
   background: none;
   border: none;
   font-size: 24px;
-  color: white;
+  color: var(--cor-texto);
   position: fixed;
   top: 0;
   left: 10px;
@@ -208,7 +208,9 @@
 .tooltip {
     color: var(--cor-texto);
     background: #444;
-    font-size: 20px;
+    font-size: 24px;
+    font-family: var(--fonte-projetos);
+    font-weight: 600;
 }
 
 .nav-dot.home i {

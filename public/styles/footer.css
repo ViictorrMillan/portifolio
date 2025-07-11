@@ -82,7 +82,7 @@ footer {
 /*! Footer */
 footer {
   background-color: #333;
-  color: #fff; 
+  color: var(--cor-texto); 
   font-size: 18px;
   font-family: var(--fonte-principal);
 }

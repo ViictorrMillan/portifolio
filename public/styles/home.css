@@ -17,15 +17,21 @@
 }
 
 .home-apresentacao h1 {
-    font-size: clamp(2.2rem, 5vw, 3rem);
+    font-size: clamp(2rem, 5vw, 3rem);
     text-align: center;
     line-height: 1.2;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+     letter-spacing: 6px;
+
 }
 
 .home-apresentacao p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
     white-space: nowrap;
+    font-family: var(--fonte-projetos);
+    font-weight: 500;
 }
 
 .home-apresentacao p::after {
@@ -66,8 +72,11 @@
 }
 
 .home-imagem figcaption {
-  font-size: clamp(0.8rem, 5vw, 1.3rem);
+  font-size: clamp(0.8rem, 5vw, 1.4rem);
   white-space: nowrap;
+  font-family: var(--fonte-projetos);
+  font-weight: 500;
+  
 }
 
 
@@ -75,15 +84,16 @@
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #464646; 
-  color: #fff;
+  color: var(--cor-texto);
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
   transition: background 0.3s, transform 0.2s;
   display: inline-flex;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   gap: 10px;
+  font-family: var(--fonte-projetos);
 }
 
 .btn-curriculo:hover {
@@ -97,7 +107,7 @@
     }
 
     .home-apresentacao p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     white-space: normal;
     }
 }

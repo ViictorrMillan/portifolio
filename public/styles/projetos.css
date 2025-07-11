@@ -308,7 +308,7 @@
     }
 }
 
- @media (max-width: 400px) {
+ @media (max-width: 800px) {
   .list li {
     width: 280px;
     height: 150px;
@@ -363,7 +363,7 @@
     overflow: hidden;
     padding: 10px 0;
   }
-
+  
   .list {
     height: 160px;
     margin-bottom: 10px;
