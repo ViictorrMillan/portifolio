@@ -373,25 +373,21 @@
   }
 
   .slide-info {
-    height: 600px; /* 800 - 160 (list) - 40 (margens) */
+    height: 600px; 
     padding: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
+
   }
 
-  
-
-
-
-  .tech-icons i {
-    font-size: 1.6rem;
+   .desc {
+    height: 170px;
+    font-size: 0.9em;
   }
+    .tech-and-buttons {
+        height: 170px;
+    }
 
-  button,
-  .links a {
-    font-size: 0.85rem;
-    padding: 8px 10px;
-    min-width: 90px;
+    .slide-info h2 {
+    font-size: 1.4rem;
   }
 }
 
