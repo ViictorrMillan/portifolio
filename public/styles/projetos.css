@@ -1,6 +1,5 @@
-#Projetos {
+#projetos {
     min-height: 100svh;
-    
 }
 .carousel-container {
       text-align: center;
@@ -298,56 +297,65 @@
   }
 }
 
-    @media (max-width: 400px) {
-       
-        
-      .list li {
-        width: 280px;
-        height: 150px;
-        margin-left: -140px;
-        font-size: 1.6rem;
-      }
+ @media (max-width: 400px) {
+  .list li {
+    width: 280px;
+    height: 150px;
+    margin-left: -140px;
+    font-size: 1.6rem;
+  }
 
-      .list .prev {
-        transform: translateX(-320px) scale(0.85);
-      }
+  .list .prev {
+    transform: translateX(-320px) scale(0.85);
+  }
 
-      .list .next {
-        transform: translateX(320px) scale(0.85);
-      }
+  .list .next {
+    transform: translateX(320px) scale(0.85);
+  }
 
-      button {
-        font-size: 0.95rem;
-        padding: 10px 25px;
-        min-width: 100px;
-      }
+  button {
+    font-size: 0.95rem;
+    padding: 10px 25px;
+    min-width: 100px;
+  }
 
-      .slide-info h2 {
-        font-size: 1.2rem;
-         white-space: nowrap;
-         overflow: hidden;
-      }
+  .slide-info h2 {
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
-      .tech-icons i {
-        font-size: 1.8rem;
+  .tech-icons i {
+    font-size: 1.8rem;
+  }
 
-      }
+  .links a {
+    font-size: 0.8rem;
+    min-width: 100px;
+  }
 
-      .links a {
-        font-size: 0.8rem;
-        min-width: 100px;
-      }
+  .desc {
+    height: 170px;
+    font-size: 0.9em;
+  }
 
-      .desc {
-        height: 170px;
-        font-size: 0.9em;
-    }
+  .tech-and-buttons {
+    height: auto;
+  }
+}
 
-    .tech-and-buttons {
-        height: auto;
-    }
-    }
-
+@media (orientation: landscape) and (max-width: 1000px) {
+  #projetos {
+    min-height: 800px;     
+    max-height: 100svh; 
+  }
+  .list li {
+    width: 400px;
+    height: 200px;
+    margin-left: -200px;
+    font-size: 2rem;
+  }
+}
 
 
 
