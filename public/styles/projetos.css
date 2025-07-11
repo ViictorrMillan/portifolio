@@ -1,5 +1,5 @@
 #Projetos {
-    height: auto;
+    min-height: 100svh;
 }
 .carousel-container {
       text-align: center;
@@ -125,6 +125,10 @@
 
 
     .desc {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
      flex: 1;
      font-size: 1.15rem;
      color: var(--cor-texto);
@@ -134,6 +138,10 @@
      text-justify: inter-word;   
      hyphens: auto;             
      word-break: break-word;  
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      border-radius: 15px;
+      height: 200px;
     }
 
 
@@ -141,8 +149,14 @@
       flex: 1;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      justify-content: space-around;
+      align-items: space-between;
       min-width: 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      border-radius: 15px;
+      height: 200px;
+
     }
 
 
@@ -284,6 +298,12 @@
 }
 
     @media (max-width: 400px) {
+        #Projetos {
+            height: auto;
+            padding: 20px;
+        }
+
+
       .list li {
         width: 280px;
         height: 150px;
@@ -311,6 +331,7 @@
 
       .tech-icons i {
         font-size: 1.8rem;
+
       }
 
       .links a {
@@ -320,14 +341,27 @@
       }
 
       .desc {
-        max-height: 180px;
         overflow-y: auto;
-        padding-right: 8px;
+        padding-right: 10px;
+        height: 180px;
+    }
+
+    .tech-and-buttons {
+        height: auto;
+        overflow-y: auto;
+        padding-right: 8px; 
     }
 
     }
 
 
+    @media (max-width: 720px) and (orientation: landscape) {
+  #Projetos {
+    height: auto;
+    min-height: 100vh;
+    padding: 20px 10px;
+  }
+}
 /*  Imagens dos projetos */
 
 .spotify-clone {
