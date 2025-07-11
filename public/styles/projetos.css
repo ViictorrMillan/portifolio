@@ -299,10 +299,7 @@
 }
 
     @media (max-width: 400px) {
-        #Projetos {
-            min-height: auto;
-            padding: 60px 20px;
-        }
+       
         
       .list li {
         width: 280px;
