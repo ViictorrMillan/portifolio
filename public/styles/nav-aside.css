@@ -132,7 +132,7 @@
     width: 140px;
     height: 320px;
     position: fixed;
-    transform: translateX(-104%);
+    transform: translateX(-106%);
     transition: transform 0.3s ease;
     padding: 3rem 8px; 
     border-radius: 25px;
