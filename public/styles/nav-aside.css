@@ -134,7 +134,7 @@
     position: fixed;
     transform: translateX(-104%);
     transition: transform 0.3s ease;
-    padding: 3rem 4px; 
+    padding: 3rem 8px; 
     border-radius: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     background: #2e2e2ee5;
@@ -196,6 +196,8 @@
 /*  Estilo */
 
 /*! NAV */
+
+
 .nav-dot {
     background: #444;
 }
@@ -235,7 +237,7 @@
 
 @media (max-width: 768px) {
   .nav-dot i {
-    font-size: 22px;
+    font-size: 24px;
   }
 
    .tooltip {
