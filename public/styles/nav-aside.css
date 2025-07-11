@@ -74,9 +74,9 @@
   color: white;
   position: fixed;
   top: 20px;
-  left: 20px;
   z-index: 1100; 
-  cursor: pointer;  
+  cursor: pointer; 
+
 }
 
 #overlay {
@@ -121,15 +121,14 @@
     justify-content: center;
     align-items: center;
     font-size: 26px;
-
   }
 
   aside {
     margin-top: 25px;
-    margin-left: 3px;
+    margin-left: 10px;
     align-items: start;
     width: 150px;
-    height: 315px;
+    height: 320px;
     position: fixed;
     transform: translateX(-104%);
     transition: transform 0.3s ease;
@@ -145,7 +144,7 @@
 
   .nav-dot {
     width: 100%;
-    border-radius:  25px;
+    border-radius: 25px;
     height: 35px;
   }
 
