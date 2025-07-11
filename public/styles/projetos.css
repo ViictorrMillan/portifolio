@@ -301,7 +301,7 @@
     @media (max-width: 400px) {
         #Projetos {
             height: auto;
-            padding: 80px 20px;
+            padding: 60px 20px;
         }
         
       .list li {
@@ -326,7 +326,7 @@
       }
 
       .slide-info h2 {
-        font-size: 1.2rem;
+        font-size: 1rem;
       }
 
       .tech-icons i {
